@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <div class="button-box">
+                <button class="toggle-btn" onclick="showLogin()" id="loginBtn">Login</button>
+                <button class="toggle-btn" onclick="showSignup()" id="signupBtn">Signup</button>
+            </div>
+            
+        </div>
+    </div>
+   
+</body>
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #3189a2, #557aa7);
+        background-image: url(t7b5j2cqpce21.png);
+        background-size: cover;
+       
+    }
+    .container {
+        position: relative;
+        width: 350px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+    }
+    .form-box {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    .button-box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .toggle-btn {
+        background: none;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .toggle-btn:hover {
+        color: #0072ff;
+    }
+    
+    
+</style>
